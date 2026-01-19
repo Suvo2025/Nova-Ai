@@ -40,20 +40,6 @@ def speak(text):
     os.remove("temp.mp3") 
 
 
-# def aiProcess(command):
-#     client = genai.Client(
-#         api_key="AIzaSyD1itl_WcL70bLUn79Ad91ryhcxsugqvLs",
-#             )
-
-#     completion = client.chat.completions.create(
-#     model="gemini-2.5-flash",
-#         messages=[
-#             {"role": "system", "content": "You are a virtual assistant named Nova skilled in general tasks like Alexa and Google Cloud"},
-#             {"role": "user", "content": command}
-#         ]
-#         )
-
-#     return completion.choices[0].message.content
 
 
 def processCommand(c):
